@@ -17,6 +17,8 @@
 		92C21CE11AAE76930052ABE6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CDF1AAE76930052ABE6 /* TableViewCell.m */; };
 		92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C21CE01AAE76930052ABE6 /* TableViewCell.xib */; };
 		92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CE71AAE858E0052ABE6 /* Filme.m */; };
+		CA4EE5701AAF820C001E427A /* ReaderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */; };
+		CA4EE5731AAF8267001E427A /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		92C21CE01AAE76930052ABE6 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		92C21CE61AAE858E0052ABE6 /* Filme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filme.h; path = Entidades/Filme.h; sourceTree = "<group>"; };
 		92C21CE71AAE858E0052ABE6 /* Filme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filme.m; path = Entidades/Filme.m; sourceTree = "<group>"; };
+		CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderTableView.xib; sourceTree = "<group>"; };
+		CA4EE5711AAF8267001E427A /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,9 @@
 			children = (
 				92C21CDE1AAE76930052ABE6 /* TableViewCell.h */,
 				92C21CDF1AAE76930052ABE6 /* TableViewCell.m */,
+				CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */,
+				CA4EE5711AAF8267001E427A /* HeaderTableViewCell.h */,
+				CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */,
 				92C21CE01AAE76930052ABE6 /* TableViewCell.xib */,
 			);
 			name = Celulas;
@@ -232,6 +240,7 @@
 			files = (
 				92C21CC11AAE757A0052ABE6 /* Images.xcassets in Resources */,
 				92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */,
+				CA4EE5701AAF820C001E427A /* ReaderTableView.xib in Resources */,
 				92C21CDD1AAE75DC0052ABE6 /* TableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C21CBC1AAE757A0052ABE6 /* TableViewController.m in Sources */,
+				CA4EE5731AAF8267001E427A /* HeaderTableViewCell.m in Sources */,
 				92C21CDB1AAE75B30052ABE6 /* iTunesManager.m in Sources */,
 				92C21CB91AAE757A0052ABE6 /* AppDelegate.m in Sources */,
 				92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */,

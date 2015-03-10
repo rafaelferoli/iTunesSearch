@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HeaderTableViewCell.h"
 
 @interface TableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 
 @property (strong, nonatomic) IBOutlet UITableView *tableview;
+@property NSArray *midias;
+@property HeaderTableViewCell *headerView;
 
 @end
 
