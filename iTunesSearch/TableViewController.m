@@ -10,6 +10,7 @@
 #import "TableViewCell.h"
 #import "iTunesManager.h"
 #import "Entidades/Filme.h"
+#import "DetailViewController.h"
 
 @interface TableViewController () {
     
@@ -23,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     UINib *nib = [UINib nibWithNibName:@"TableViewCell" bundle:nil];
     [self.tableview registerNib:nib forCellReuseIdentifier:@"celulaPadrao"];
@@ -58,6 +60,7 @@
     [celula.tipo setText:@"Filme"];
     [celula.genero setText:filme.genero];
     [celula.artista setText:filme.artista];
+    [celula.pais setText:filme.pais];
     
     return celula;
 }
@@ -76,6 +79,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 65;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    DetailViewController *newViewController = [[DetailViewController alloc] init];
+    newViewController.filme = _midias[indexPath.row];
+    [self presentViewController:newViewController animated:YES completion:nil];
 }
 
 

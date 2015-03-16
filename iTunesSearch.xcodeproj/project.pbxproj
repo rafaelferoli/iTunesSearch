@@ -17,6 +17,9 @@
 		92C21CE11AAE76930052ABE6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CDF1AAE76930052ABE6 /* TableViewCell.m */; };
 		92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C21CE01AAE76930052ABE6 /* TableViewCell.xib */; };
 		92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CE71AAE858E0052ABE6 /* Filme.m */; };
+		CA4E47051AB34FDF001F320E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA4E47071AB34FDF001F320E /* Localizable.strings */; };
+		CA4E47401AB735EB001F320E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E473E1AB735EB001F320E /* DetailViewController.m */; };
+		CA4E47411AB735EB001F320E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4E473F1AB735EB001F320E /* DetailViewController.xib */; };
 		CA4EE5701AAF820C001E427A /* ReaderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */; };
 		CA4EE5731AAF8267001E427A /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,13 @@
 		92C21CE01AAE76930052ABE6 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		92C21CE61AAE858E0052ABE6 /* Filme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filme.h; path = Entidades/Filme.h; sourceTree = "<group>"; };
 		92C21CE71AAE858E0052ABE6 /* Filme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filme.m; path = Entidades/Filme.m; sourceTree = "<group>"; };
+		CA4E47061AB34FDF001F320E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA4E47081AB34FE2001F320E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA4E47091AB35076001F320E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA4E470A1AB35174001F320E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA4E473D1AB735EB001F320E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CA4E473E1AB735EB001F320E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CA4E473F1AB735EB001F320E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderTableView.xib; sourceTree = "<group>"; };
 		CA4EE5711AAF8267001E427A /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
 		CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
@@ -101,6 +111,9 @@
 				92C21CB81AAE757A0052ABE6 /* AppDelegate.m */,
 				92C21CBA1AAE757A0052ABE6 /* TableViewController.h */,
 				92C21CBB1AAE757A0052ABE6 /* TableViewController.m */,
+				CA4E473D1AB735EB001F320E /* DetailViewController.h */,
+				CA4E473E1AB735EB001F320E /* DetailViewController.m */,
+				CA4E473F1AB735EB001F320E /* DetailViewController.xib */,
 				92C21CDC1AAE75DC0052ABE6 /* TableView.xib */,
 				92C21CD91AAE75B30052ABE6 /* iTunesManager.h */,
 				92C21CDA1AAE75B30052ABE6 /* iTunesManager.m */,
@@ -144,6 +157,7 @@
 				CA4EE56F1AAF820C001E427A /* ReaderTableView.xib */,
 				CA4EE5711AAF8267001E427A /* HeaderTableViewCell.h */,
 				CA4EE5721AAF8267001E427A /* HeaderTableViewCell.m */,
+				CA4E47071AB34FDF001F320E /* Localizable.strings */,
 				92C21CE01AAE76930052ABE6 /* TableViewCell.xib */,
 			);
 			name = Celulas;
@@ -221,6 +235,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				pt,
 			);
 			mainGroup = 92C21CA71AAE757A0052ABE6;
 			productRefGroup = 92C21CB11AAE757A0052ABE6 /* Products */;
@@ -238,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4E47051AB34FDF001F320E /* Localizable.strings in Resources */,
+				CA4E47411AB735EB001F320E /* DetailViewController.xib in Resources */,
 				92C21CC11AAE757A0052ABE6 /* Images.xcassets in Resources */,
 				92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */,
 				CA4EE5701AAF820C001E427A /* ReaderTableView.xib in Resources */,
@@ -262,6 +280,7 @@
 				92C21CBC1AAE757A0052ABE6 /* TableViewController.m in Sources */,
 				CA4EE5731AAF8267001E427A /* HeaderTableViewCell.m in Sources */,
 				92C21CDB1AAE75B30052ABE6 /* iTunesManager.m in Sources */,
+				CA4E47401AB735EB001F320E /* DetailViewController.m in Sources */,
 				92C21CB91AAE757A0052ABE6 /* AppDelegate.m in Sources */,
 				92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */,
 				92C21CE11AAE76930052ABE6 /* TableViewCell.m in Sources */,
@@ -286,6 +305,20 @@
 			targetProxy = 92C21CCA1AAE757A0052ABE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA4E47071AB34FDF001F320E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4E47061AB34FDF001F320E /* Base */,
+				CA4E47081AB34FE2001F320E /* en */,
+				CA4E47091AB35076001F320E /* fr */,
+				CA4E470A1AB35174001F320E /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92C21CD11AAE757A0052ABE6 /* Debug */ = {

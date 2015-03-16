@@ -14,6 +14,8 @@
 
 - (void)awakeFromNib {
     [_searchBar setDelegate:self];
+    _searchBar.placeholder = NSLocalizedString(@"Pesquisar", @"");
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
